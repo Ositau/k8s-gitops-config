@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: nginxdemos/hello:plain-text
+        image: ghcr.io/ositau/k8s-demo-app:cccd7e0
         ports:
         - containerPort: 80
 ---
